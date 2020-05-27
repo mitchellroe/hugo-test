@@ -4,9 +4,34 @@ title = "Mitchell Roe"
 theme = "nix"
 
 # nix theme specific variables
-HeaderUsername = "mitchellroe"
-HeaderHostname = "mitchellroe.dev"
-GithubID = "mitchellroe"
-GitlabID = "mitchellroe"
-GnuPGFingerprint = "C4F7087A5D9EDA99FC71CEF9D22A740C5B3E0D64"
-Email = "mitchell.roe@member.fsf.org"
+[params]
+  HeaderUsername = "mitchellroe"
+  HeaderHostname = "mitchellroe.dev"
+  GithubID = "mitchellroe"
+  GitlabID = "mitchellroe"
+  GnuPGFingerprint = "C4F7087A5D9EDA99FC71CEF9D22A740C5B3E0D64"
+  Email = "mitchell.roe@member.fsf.org"
+  ProfilePicture = "https://lh3.googleusercontent.com/pw/ACtC-3cxURTEHoKitwP7ri4CB-ZP-0IRbVfRg4shAb59CCZv40V_dWpQFPRn6y7SgtyGv965pEI8J8pEKTMIaPNVIZYPKpl-yArSgm-FHdTTlpAJ9Pz2m7MzJwJUW80iqkjxUh77o7bcwCDE6sRC3O1HmjP5=s400-no?authuser=0"
+
+[menu]
+  [[menu.header]]
+    name = "blog"
+    weight = 0
+    url = "https://mitchellroe.dev"
+  [[menu.header]]
+    identifier = "posts"
+    name = "posts"
+    weight = 0
+  [[menu.header]]
+    parent = "posts"
+    name = "All Posts"
+    url = "/posts"
+  [[menu.header]]
+    parent = "posts"
+    name = "categories"
+    url = "/categories"
+  [[menu.header]]
+    parent = "posts"
+    name = "tags"
+    url = "/tags"
+
