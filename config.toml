@@ -2,3 +2,11 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Mitchell Roe"
 theme = "nix"
+
+# nix theme specific variables
+HeaderUsername = "mitchellroe"
+HeaderHostname = "mitchellroe.dev"
+GithubID = "mitchellroe"
+GitlabID = "mitchellroe"
+GnuPGFingerprint = "C4F7087A5D9EDA99FC71CEF9D22A740C5B3E0D64"
+Email = "mitchell.roe@member.fsf.org"
