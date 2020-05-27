@@ -3,4 +3,4 @@
 	url = https://github.com/LordMathis/hugo-theme-nix
 [submodule "public"]
 	path = public
-	url = git@github.com:mitchellroe/hugo-blog
+	url = git@github.com:mitchellroe/hugo-blog.git
